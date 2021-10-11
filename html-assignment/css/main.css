@@ -10,7 +10,5 @@ header, footer{
     color: navy
 }
 #my-image{
-    box-shadow: h-offset: 0; v-offset: 0; blur: 2px; spread: 1px; color:black;
-    
-
+    box-shadow: 0px 0px 2px 1px black;
 }
