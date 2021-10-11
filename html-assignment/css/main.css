@@ -9,4 +9,8 @@ header, footer{
 .site-title{
     color: navy
 }
+#my-image{
+    box-shadow: h-offset: 0; v-offset: 0; blur: 2px; spread: 1px; color:black;
+    
 
+}
