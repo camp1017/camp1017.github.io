@@ -25,5 +25,6 @@ a{
     border: navy;
 }
 a:hover {
+    color: white;
     background-color: navy;
 }
