@@ -24,3 +24,6 @@ a{
     background-color: white;
     border: navy;
 }
+a:hover {
+    background-color: navy;
+}
