@@ -12,3 +12,15 @@ header, footer{
 #my-image{
     box-shadow: 0px 0px 2px 1px black;
 }
+ul.a{
+    list-style-type: square;
+}
+ul:nth-child(odd) {
+    color: white;
+    background-color: navy;
+}
+a{
+    text-decoration: none;
+    background-color: white;
+    border: navy;
+}
