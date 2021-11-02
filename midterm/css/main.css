@@ -1,7 +1,16 @@
+p{
+    block: 
+}
 body{
     background-color:#aad4cf
 }
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
 header{
     color: white;
-    "margin: 0 auto;"
+}
+nav{
+    display: inline;
 }
