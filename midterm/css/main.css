@@ -9,21 +9,8 @@ body {
 }
 body {
     width: 500px
-    margin 0: auto;  
+    margin: 0; grid-auto-flow: ;  
 }
-header {
-    width: 500px 
-    display: center;
-    color: white;
-}
-.container {
-    width: 500px
-    margin: 0; auto
-}
-.starfish {
-    width: 150px
-    float: left
-}
-ul navig {
-    display: inline-block; 
+nav{
+    
 }
