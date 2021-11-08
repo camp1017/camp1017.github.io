@@ -1,16 +1,29 @@
-p{
-    block: 
-}
-body{
+
+body {
     background-color:#aad4cf
 }
-body{
+body {
+    color: white; 
     font-family: Arial, Helvetica, sans-serif
+    
 }
-
-header{
+body {
+    width: 500px
+    margin 0: auto;  
+}
+header {
+    width: 500px 
+    display: center;
     color: white;
 }
-nav{
-    display: inline;
+.container {
+    width: 500px
+    margin: 0; auto
+}
+.starfish {
+    width: 150px
+    float: left
+}
+ul navig {
+    display: inline-block; 
 }
