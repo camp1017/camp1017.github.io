@@ -130,6 +130,9 @@ table {
 /*----------- CSS reset-------------  */
 
 /* custom css */
+body {
+    font-size: 1em;
+}
 .largekitten{
   display: none;
 }
@@ -138,3 +141,34 @@ table {
   padding: 10px;
   border-bottom: 1px solid black
 }
+
+/* media queries */
+
+@media screen and (min-width: 480px) {
+    .smallkitten {
+        display: none;
+    }
+    .largekitten {
+        display: block;
+}
+
+@media screen and (min-width: 800px) {
+    .gameslist li {
+        border-right: 1px solid black;
+        border-bottom: none;
+        float: left;
+
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 6rem; 
+    }
+} 
