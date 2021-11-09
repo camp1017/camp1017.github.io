@@ -3,14 +3,16 @@ body {
     background-color:#aad4cf
 }
 body {
+    width: 2000px; 
+    padding: 10px;
+    margin:0;
     color: white; 
     font-family: Arial, Helvetica, sans-serif
-    
 }
-body {
-    width: 500px
-    margin: 0; grid-auto-flow: ;  
+nav {
+    display: block;
 }
-nav{
+article {
+    color: white
     
 }
