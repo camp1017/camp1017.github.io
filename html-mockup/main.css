@@ -31,12 +31,22 @@ body {
     background-color: #fff;
 }
 h1 {
+    font-weight: bold;
     font-size: 71px;
     line-height: 91px;
 }
-header main footer {
-    width: 100%;
-    margin: 0 auto;
+h2 {
+    font-weight: bold;
+    font-size: 48px;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+p {
+    font-size: 14px;
+    line-height: 21px;
 }
 header {
     background-color: #222; 
@@ -70,14 +80,72 @@ ul li a {
     font-size: 18px;
     width: 100%;
 }
-.section-intro {
+.intro {
     background-image: url("images_mockup/main-banner.jpg");
-    height: 530px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
 }
-.container-intro {
+.welcome {
     width: 100%;
     height: 465px;
-    background-color: #222;
-
+    color: #fff;
+    background-color: rgba(22, 22, 22, 0.7);
+    
 }
+
+.welcome button {
+    background-color: #c78c06;
+    color: #222;
+    font-size: 21px;
+    padding: 3rem;
+    margin: 1rem;
+    border: none;
+}
+.about {
+    background-color: #fff8dc;
+    width: 100%;
+    height: 625px;
+}
+.about-us p {
+    margin: 1rem;
+}
+.about-us img {
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+
+.services {
+    margin: 1rem;
+}
+.services-heading {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.services-digital {
+    background-color: #fff8dc;
+    width: 100%;
+    height: 725px;
+}
+.image-digital {
+    width: 100%;
+    height: auto;
+}
+.services-text {
+    margin: 1rem;
+}
+.button-digital {
+    border: none;
+    padding: 2rem;
+    font-size: 18px;
+    background-color: #222;
+    color: #fff;
+    margin: 1rem;
+}
+
+
+
+
 
