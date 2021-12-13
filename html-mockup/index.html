@@ -5,15 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css.main">
+    <link href="reset.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Three Star Media</title>
     
 </head>
 <body>
     <!-- Header -->
-    <header class="header-content">
-        <div class="nav-container">
-            <img src="images_mockup/logo.png" class="image-logo" alt="Three Star Media Logo">
+    <header>
+        <div class="container nav">
+            <!-- added logo container-->
+            <div class="container logo">
+                <img src="images_mockup/logo.png" class="image-logo" alt="Three Star Media Logo">
+            </div>
             <!-- Navigation -->
             <nav>
                 <ul>
@@ -34,9 +44,9 @@
                     </li>
                 </ul>
             </nav>
-            <div class="nav-form">
-                <form class="searchbar">
-                    <input type="text" placeholder="Search">
+            <div class="conatiner form-nav">
+                <form class="search">
+                    <input class="searchbar" type="text" placeholder="Search">
                     <button class="button-search" type="submit">
                         <i class="fas fa-search"></i>
                     </button>
@@ -47,28 +57,28 @@
     </header>
 
     <!-- Main Content -->
-    <main class="main-content">
+    <main class="main content">
 
         <!-- Intro Section -->
         <section class="section-intro">
-            
-            <div class="intro-container">
+            <!-- div was labeled info-->
+            <div class="container-intro">
                 <h1>Welcome to Three Star Media</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur! 
+                </p>
                 <button class="button-connect">Connect with us</button>
             </div>
 
         </section>
         
         <!-- About Us section -->
-        <section class="section-about-us">
+        <section class="section about-us">
             
-            <div class="about-us-container">
-                
+            <div class="container about-us">
                 <img src="images_mockup/about-us.jpg" alt="About us">
                 <div class="about-text-container">
                     <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae omnis nam dicta dolore iusto! Voluptas sed ea suscipit numquam dicta architecto ducimus voluptates, assumenda velit modi reiciendis deleniti consequuntur deserunt.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos neque nihil non accusamus consequatur nobis ullam recusandae corrupti similique? Sint sequi iste ipsam veritatis a aliquid hic ipsum nulla!</p>
                 </div>
             
             </div>
@@ -76,9 +86,9 @@
         </section>
 
         <!-- Our Services Section -->
-        <section class="section-services">
-            <div class="services-container">
-                <div class="services-heading-container">
+        <section class="section services">
+            <div class="container services">
+                <div class="container services-heading">
                 <h2>Our Services</h2>
                 </div>
                 <div class="services-digital-container">
@@ -114,15 +124,15 @@
             </div>
         </section>
         <!-- Vision Container-->
-        <section class="section-vision">
-            <div class=vision-container>
+        <section class="section vision">
+            <div class="container vision">
                 <h3>Our Vision</h3>
                 <p>Lorem ipsum dolor sit amet</p>
                 <button class="button-vision">Learn More</button>
             </div>
         </section>
         <section class="section-team">
-            <div class="team-heading-container">
+            <div class="container team-heading">
                 <h2>Our Team</h2>
             </div>
             <div class="team-john-container">
@@ -140,6 +150,7 @@
                 <p>Lorem ipsum dolor sit amet</p>
             </div>
         </section>
+
         <section class="section-contact">
             <div class="contact-header-container">
                 <h2>Contact Us</h2>
@@ -175,9 +186,8 @@
                     </tr>
                 </table>
             </div>
-   
-
-    </main>
+        </section>
+   </main>
 
     <footer>
         <div class="footer-container">
@@ -185,6 +195,7 @@
                 <p>© Copyright Three Stars Media, 2021</p>
                 <p>All Images were take from <a href="https://unsplash.com">Unsplash</a></p>
             </div>
+        </div>
     </footer>
 </body>
 </html>
