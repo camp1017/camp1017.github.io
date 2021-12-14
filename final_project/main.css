@@ -412,8 +412,6 @@ body {
         margin: 1rem;
     }
 
-   
-    }
     .image-team {
         width: 100%;
         height: auto;
@@ -428,10 +426,10 @@ body {
     }
     .team-grid-container {
         display: grid;
-        grid-area: "F F"
-                    "G G"
+        grid-area: "F F "
+                   "G G"
     }
-    .jon {
+    .john {
         grid-area: F;
     }
     .bob {
@@ -487,7 +485,7 @@ body {
     footer p {
         padding: 1rem;
     }
-}
+
 
 
 
