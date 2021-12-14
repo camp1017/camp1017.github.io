@@ -275,7 +275,11 @@ body {
         background-color: #222; 
         padding: 1rem;
         display: flex;
-        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    ul {
+        display: flex;
+
     }
     ul li {
         padding: 20px;
@@ -485,6 +489,7 @@ body {
     footer p {
         padding: 1rem;
     }
+}
 
 
 
